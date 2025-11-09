@@ -1,7 +1,7 @@
 describe('Login', () => {
   beforeEach(() => { //Callback
     //Arrange
-    cy.visit(Cypress.env("URL"))
+    cy.visit('/')
     cy.screenshot('Após visitar página')
   })
 
